@@ -33,7 +33,7 @@ const Sign = () => {
                     }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
-                    className='flex justify-center items-center bg-black text-[#f3f3f3] rounded-[50px] py-3 px-6 shadow-2xl mt-2 duration-300 hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>
+                    className="flex justify-center items-center bg-black text-[#f3f3f3] rounded-[50px] py-3 px-6 shadow-2xl mt-2 duration-300 hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
                     Start a test
                 </motion.button>
                 <p className='text-[#808080] text-sm font-medium '>Takes only 5 minutes</p>

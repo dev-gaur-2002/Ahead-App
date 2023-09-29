@@ -43,7 +43,7 @@ const MVP = () => {
                                 whileInView={{ scale: 1 }}
                                 viewport={{ once: true }}
                                 className="timestamp ">
-                                <Image src='/assets/symbolsun.png' width={50} height={50} className='-mb-6' />
+                                <Image src='/assets/symbolsun.png' alt='sun image' width={50} height={50} className='-mb-6' />
 
                             </motion.div>
                             <motion.div
@@ -71,7 +71,7 @@ const MVP = () => {
                                 viewport={{ once: true }}
                                 className="timestamp">
 
-                                <Image src='/assets/symbolsun.png' width={50} height={50} className='-mb-6' />
+                                <Image src='/assets/symbolsun.png' alt='sun image' width={50} height={50} className='-mb-6' />
                             </motion.div>
                             <motion.div
                                 initial={{ y: 20, opacity: 0 }}
@@ -98,7 +98,7 @@ const MVP = () => {
                                 viewport={{ once: true }}
                                 className="timestamp" id="last">
 
-                                <Image src='/assets/symbolsun.png' width={50} height={50} className='-mb-6' />
+                                <Image src='/assets/symbolsun.png' alt='sun image' width={50} height={50} className='-mb-6' />
 
                             </motion.div>
                             <motion.div
@@ -129,7 +129,7 @@ const MVP = () => {
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
                     className='flex justify-center items-center mt-4 '>
-                    <Image src='/assets/anotherway.png' width={1000} height={1000} className='p-2 scale-75 md:scale-100 ' />
+                    <Image src='/assets/anotherway.png' alt='anotherway image' width={1000} height={1000} className='p-2 scale-75 md:scale-100 ' />
                 </motion.div>
             </motion.div>
         </section>
