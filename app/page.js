@@ -7,7 +7,7 @@ import Slider from '@/components/Slider'
 import Aboutsection from '@/components/Aboutsection'
 import Timeline from '@/components/Timeline'
 import AfterTimeline from '@/components/AfterHero'
-import MVP from '@/components/MVP'
+import Main from '@/components/MVP'
 import Sign from '@/components/Sign'
 import Work from '@/components/Work'
 import Vacancies from '@/components/Vacancies'
@@ -22,7 +22,7 @@ export default function Home() {
       <Aboutsection />
       <Timeline />
       <AfterTimeline />
-      <MVP />
+      <Main />
       <Sign />
       <Work />
       <Vacancies />
