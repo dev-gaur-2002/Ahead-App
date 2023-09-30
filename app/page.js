@@ -1,12 +1,12 @@
 // Components
 import NavBar from '@/components/NavBar'
 import HeroSection from '@/components/HeroSection'
+import AfterHero from "@/components/AfterTimeline"
 import Footer from '@/components/Footer'
-import Section1 from '@/components/Section1'
 import Slider from '@/components/Slider'
 import Aboutsection from '@/components/Aboutsection'
 import Timeline from '@/components/Timeline'
-import Section2 from '@/components/Section2'
+import AfterTimeline from '@/components/AfterHero'
 import MVP from '@/components/MVP'
 import Sign from '@/components/Sign'
 import Work from '@/components/Work'
@@ -17,11 +17,11 @@ export default function Home() {
     <main className="flex flex-col justify-center items-center">
       <NavBar />
       <HeroSection />
-      <Section1 />
+      <AfterHero />
       <Slider />
       <Aboutsection />
       <Timeline />
-      <Section2 />
+      <AfterTimeline />
       <MVP />
       <Sign />
       <Work />
