@@ -49,10 +49,10 @@ const Work = () => {
                     >
                         <div className="flex flex-[0.7] flex-col md:px-6 px-4 py-4 ">
                             <UI_Image
-                                src="/assets/boo.svg"
+                                src="/assets/pokemon.svg"
                                 width={100}
                                 height={100}
-                                alt="boo"
+                                alt="pokemon"
                                 className="-ml-5"
                             />
                             <h2 className="text-start text-[#363636] text-2xl font-semibold mb-2">

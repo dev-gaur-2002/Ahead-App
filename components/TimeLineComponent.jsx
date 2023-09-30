@@ -22,7 +22,7 @@ const TimeLineComponent = (props) => {
             >
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education visible timeline-items "
-                    iconStyle={{ background: "rgb(45, 30, 99)", color: "#000" }}
+                    iconStyle={{ background: "transparent", color: "#000" }}
                     icon={<span className="visible">🔹</span>}
                     iconClassName="flex justify-center items-center "
                 >

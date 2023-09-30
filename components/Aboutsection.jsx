@@ -59,7 +59,7 @@ const Aboutsection = () => {
                         viewport={{ once: true }}
                     >
                         <UI_Image
-                            src="/assets/boo.svg"
+                            src="/assets/pokemon.svg"
                             width={250}
                             height={250}
                             alt="hero"

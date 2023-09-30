@@ -56,10 +56,10 @@ const Timeline = () => {
                     viewport={{ once: true }}
                 >
                     <UI_Image
-                        src="/assets/boo.svg"
+                        src="/assets/pokemon.svg"
                         width={80}
                         height={80}
-                        alt="boo"
+                        alt="pokemon"
                         className="rounded-full rotate-[25deg] opacity-90 hidden md:flex"
                     />
                 </motion.div>

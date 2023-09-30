@@ -37,10 +37,10 @@ const Slider = () => {
                     viewport={{ once: true }}
                 >
                     <UI_Image
-                        src="/assets/boo.svg"
+                        src="/assets/pokemon.svg"
                         width={100}
                         height={100}
-                        alt="boo"
+                        alt="pokemon"
                         className=" rounded-full -rotate-[30deg] opacity-80 hidden md:flex"
                     />
                 </motion.div>
