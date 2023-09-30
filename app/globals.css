@@ -99,12 +99,6 @@ body {
   position: relative;
   transition: all 200ms ease-in;
 }
-
-.in-view{
-  color: red;
-}
-
-
 #last {
   border-bottom: none;
 }
